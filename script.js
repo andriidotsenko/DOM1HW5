@@ -1,13 +1,15 @@
+"use strict"
+
 // 1. Задача на селектори
 
 //  для елементу з текстом 'Навігація по DOM дереву'
-headerTwo = document.getElementById('headerTwo')
+const headerTwo = document.getElementById('headerTwo')
 
 console.log(headerTwo)
 
 //======================================================
 // для першого елементу <section>
-section = document.getElementsByTagName('section')[0]
+const section = document.getElementsByTagName('section')[0]
 
 console.log(section)
 
@@ -29,5 +31,5 @@ console.log(queryItemFive())
 //========================================================
 // для елементу з класом 'hatredLevelBlock'
 
-hatredLevelBlock = document.getElementsByClassName('hatredLevelBlock')[0]
+const hatredLevelBlock = document.getElementsByClassName('hatredLevelBlock')[0]
 console.log(hatredLevelBlock);
